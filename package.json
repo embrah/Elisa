@@ -30,6 +30,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "jquery": "^2.2.4",
     "mkdirp": "^0.5.1",
+    "normalize.css": "^4.1.1",
     "slick-carousel": "^1.6.0",
     "whatwg-fetch": "^1.0.0"
   },
