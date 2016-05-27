@@ -11,7 +11,8 @@ const babelify = require('babelify');
 const browserSync = require('browser-sync').create();
 
 gulp.task('images', ['dist'], () => {
-  return gulp.src('src/imgs/**/*.jpeg').pipe(gulp.dest('dist/imgs'));
+  return gulp.src('src/imgs/**/*.jpeg')
+    .pipe(gulp.dest('dist/imgs'));
 });
 
 gulp.task('dist', () => {
