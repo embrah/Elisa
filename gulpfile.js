@@ -51,7 +51,7 @@ gulp.task('watch', ['html', 'scripts', 'sass', 'images'], () => {
 gulp.task('serve', ['dist', 'watch'], () => {
   browserSync.init({
     server: {
-      baseDir: 'dist'
+      baseDir: ['dist','./']
     }
   });
 });
