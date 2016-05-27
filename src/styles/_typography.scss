@@ -1,0 +1,36 @@
+@import 'variables';
+
+html {
+  font-size: 10px;
+}
+
+$font-large: 4rem;
+$font-medium: 3rem;
+$font-small: 2.5rem;
+$font-text: 1.6rem;
+
+
+body {
+  font-family: $main-font;
+  font-size: $font-text;
+}
+
+
+h1 {
+  font-size: $font-large;
+}
+
+h2 {
+  font-size: $font-medium;
+}
+
+h3 {
+  font-size: $font-small;
+}
+
+a {
+  text-decoration: none;
+  color: $black-500;
+}
+
+
